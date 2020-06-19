@@ -1,0 +1,223 @@
+body{
+    margin: 0;
+}
+.tap{
+    width:100% ;
+    position: fixed;
+    height: 40px;
+    display: flex;
+    font-size: 17px;
+    justify-content: center;
+    z-index: 100;
+    background-color: rgb(51, 97, 215);
+   
+}
+.tap1{
+    height: 25px;
+    width: 250px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    margin-top: 7px;
+    text-align: center;
+    color: white;
+
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 5px;
+}
+.foter{
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    color: white;
+    
+    margin-left: 13%;
+}
+.foter1{
+    
+    font-size: 15px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid rgba(92, 88, 88, 0.575);
+}
+.flex{
+    display: flex;
+}
+.text-color{
+    color: white;
+}
+.imgfoter{
+    background: url('foter.png')  50%/contain;
+    width: 100PX;
+    height: 70px;
+    background-repeat: no-repeat;
+    z-index: 3;
+    margin-left: auto;
+}
+.tovar{
+    width: 100%;
+    height: 200px;
+    padding: 7px;
+    display: flex;
+}
+.tovar2{
+    width: 100%;
+    height: 200px;
+    padding: 7px;
+    display: flex;
+    margin-bottom: 13%;
+}
+.img{
+    height: 90%;
+    margin-top: 40px;
+    margin-left: 2%;
+    background: url('rez.jpg ') 50%/contain;
+    width: 45%;
+    background-repeat: no-repeat;
+}
+.name{
+    width: 50%;
+    height: 170px;
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-right: auto;
+}
+.name2{
+    
+    width: 90%;
+    padding-top: px;
+    margin-top: -18px;
+    color: rgb(66, 63, 63);
+    font-size: 25px;
+    margin-left: 25px;
+    margin-right: auto;
+    
+}
+.xit{
+    color: rgb(182, 50, 50);
+    font-size: 17px;
+    margin-top: -1px;
+    padding-top: 45px;
+    margin-left: 17px;
+}
+.imgprodukt{
+    width: 100%;
+    height: 250px;
+    background: url("rez.jpg") 50%/contain;
+}
+.nameprodukt{
+    color: rgb(66, 63, 63);
+    font-size: 23px;
+    margin-top: -0%;
+}
+.nameprodukt2{
+    color: rgb(66, 63, 63);
+    font-size: 23px;
+    margin-top: -0%;
+}
+.prise{
+    color: rgb(240, 187, 42);
+    font-size: 20px;
+    margin-top: -5%;
+}
+.prise2{
+    color: rgb(20, 19, 16);
+    font-size: 20px;
+    margin-left: 15%;
+    margin-top: -10%;
+    
+}
+.bottom{
+    width: 165px;
+    height: 50px;
+    background-color: rgb(248,206,60);
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(20, 19, 16);
+    font-size: 25px;
+    padding-top: 0px;
+    text-align: center;
+    
+}
+.buy{
+    padding-top: 7px;
+}
+.xarakter{
+    width: 100%;
+    height: 200px;
+    background: rgb(26, 23, 23);
+    margin-top: 40px;
+    padding-top: 0.8%;
+}
+.flex{
+    display: flex;
+}
+.radios{
+    border-radius: 100%;
+    background: rgb(206, 138, 37);
+    height: 15PX;
+    width: 15px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.radios2{
+    border-radius: 100%;
+    background: rgb(206, 138, 37);
+    height: 15PX;
+    width: 20px;
+    margin-left: 5%;
+    margin-top: -1.5%;
+}
+.radios3{
+    border-radius: 100%;
+    background: rgb(206, 138, 37);
+    height: 15PX;
+    width: 15px;
+    margin-left: 5%;
+    margin-top: 1.5%;
+}
+.textxar{
+    color: rgb(206, 138, 37);
+    font-size: 25px;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.textxar2{
+    color: rgb(241, 229, 184);
+    font-size: 15px;
+    margin-left: 3.5%;
+    margin-top: -4%;
+}
+.textxar3{
+    color: rgb(241, 229, 184);
+    font-size: 15px;
+    margin-left: 3.5%;
+    margin-top: 1%;
+}
+@media (min-width: 375px) {
+    .img{
+        height: 100%;
+        width: 45%;
+        margin-left:3px; 
+    } 
+      .name{
+        margin-left: 10px;
+        margin-top: 17%;
+      }
+      .nameprodukt{
+        font-size: 25px;
+      }
+    .tovar2{
+        margin-top: 2%;
+    }
+    .prise2{
+        font-size: 23px;
+    }
+    .tap{
+        font-size: 20px;
+    }
+
+}
